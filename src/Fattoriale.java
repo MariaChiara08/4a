@@ -15,7 +15,7 @@ public class Fattoriale {
 	
 	public int fattoriale(int n) {
 		int fatt=1;
-		for(int i=1;i<n;i++) {  //<=
+		for(int i=1;i<n;i++) { 
 			fatt=fatt*i;
 		}
 		return fatt;
